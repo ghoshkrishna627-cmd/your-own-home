@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "Your Own Home API",
+    "description": "Postman collection for the Your Own Home backend. Populated incrementally as each API group is implemented (Phase 3 onward).",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:5000/api" }
+  ],
+  "item": [
+    {
+      "name": "Health",
+      "item": [
+        {
+          "name": "GET /health",
+          "request": {
+            "method": "GET",
+            "url": "{{baseUrl}}/health"
+          }
+        }
+      ]
+    },
+    { "name": "Auth", "item": [] },
+    { "name": "Listings", "item": [] },
+    { "name": "Bookings", "item": [] },
+    { "name": "Reviews", "item": [] },
+    { "name": "Upload", "item": [] },
+    { "name": "Payments", "item": [] },
+    { "name": "Messaging", "item": [] },
+    { "name": "Admin", "item": [] }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "becomeHost": "होस्ट बनें",
+    "messages": "संदेश",
+    "login": "लॉग इन करें",
+    "signup": "साइन अप करें",
+    "logout": "लॉग आउट",
+    "searchPlaceholder": "गंतव्य खोजें…"
+  },
+  "buttons": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "confirm": "पुष्टि करें",
+    "reserve": "आरक्षित करें",
+    "publish": "लिस्टिंग प्रकाशित करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें"
+  },
+  "forms": {
+    "name": "पूरा नाम",
+    "email": "ईमेल पता",
+    "password": "पासवर्ड",
+    "confirmPassword": "पासवर्ड की पुष्टि करें",
+    "checkIn": "चेक-इन",
+    "checkOut": "चेक-आउट",
+    "guests": "मेहमान"
+  },
+  "errors": {
+    "required": "यह फ़ील्ड आवश्यक है",
+    "invalidEmail": "कृपया एक मान्य ईमेल पता दर्ज करें",
+    "passwordTooShort": "पासवर्ड कम से कम 8 अक्षरों का होना चाहिए",
+    "somethingWentWrong": "कुछ गलत हो गया। कृपया पुनः प्रयास करें।"
+  },
+  "booking": {
+    "nights": "रातें",
+    "subtotal": "उप-योग",
+    "cleaningFee": "सफाई शुल्क",
+    "serviceFee": "सेवा शुल्क",
+    "total": "कुल",
+    "confirmed": "बुकिंग की पुष्टि हो गई",
+    "cancelled": "बुकिंग रद्द कर दी गई"
+  },
+  "dashboard": {
+    "upcomingBookings": "आगामी बुकिंग",
+    "previousBookings": "पिछली बुकिंग",
+    "earnings": "कमाई",
+    "listings": "लिस्टिंग",
+    "reviews": "समीक्षाएं"
+  }
+}

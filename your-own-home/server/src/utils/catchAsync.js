@@ -1,0 +1,13 @@
+/**
+ * Wraps an async controller/middleware so rejected promises are forwarded
+ * to Express's error-handling middleware instead of crashing the process
+ * or requiring a try/catch in every single controller.
+ *
+ * Usage:
+ *   router.post('/', catchAsync(async (req, res) => { ... }));
+ */
+const catchAsync = (fn) => (req, res, next) => {
+  Promise.resolve(fn(req, res, next)).catch(next);
+};
+
+module.exports = catchAsync;

@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "becomeHost": "Become a Host",
+    "messages": "Messages",
+    "login": "Log in",
+    "signup": "Sign up",
+    "logout": "Log out",
+    "searchPlaceholder": "Search destinations…"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "reserve": "Reserve",
+    "publish": "Publish listing",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "forms": {
+    "name": "Full name",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordTooShort": "Password must be at least 8 characters",
+    "somethingWentWrong": "Something went wrong. Please try again."
+  },
+  "booking": {
+    "nights": "nights",
+    "subtotal": "Subtotal",
+    "cleaningFee": "Cleaning fee",
+    "serviceFee": "Service fee",
+    "total": "Total",
+    "confirmed": "Booking confirmed",
+    "cancelled": "Booking cancelled"
+  },
+  "dashboard": {
+    "upcomingBookings": "Upcoming bookings",
+    "previousBookings": "Previous bookings",
+    "earnings": "Earnings",
+    "listings": "Listings",
+    "reviews": "Reviews"
+  }
+}
